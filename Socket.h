@@ -21,10 +21,8 @@ class Socket{
     int descriptor;
 
 public:
-        //Constructor por defecto
-        Socket();
 
-        //Constructor con parametros
+        Socket();
 
         Socket(struct sockaddr_in& address);
 
